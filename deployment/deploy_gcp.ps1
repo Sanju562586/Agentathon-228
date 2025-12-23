@@ -3,7 +3,7 @@
 
 param (
     [Parameter(Mandatory=$false)]
-    [string]$MongoURI = "mongodb+srv://sanjaykumardupati6_db_user:SanjayKumar@lt.vjjea71.mongodb.net/?appName=GuardianGatekeeper"
+    [string]$MongoURI = "mongodb+srv://sanjaykumardupati6_db_user:<password>@lt.vjjea71.mongodb.net/?appName=GuardianGatekeeper"
 )
 
 Write-Host "🌩️ Deploying Guardian Mesh to Google Cloud Run..." -ForegroundColor Cyan
