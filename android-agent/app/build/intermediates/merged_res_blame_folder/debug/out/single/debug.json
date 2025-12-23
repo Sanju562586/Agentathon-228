@@ -1,0 +1,110 @@
+[
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/drawable_ic_radar.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/drawable/ic_radar.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_activity_credential_detail.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/activity_credential_detail.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_activity_add_credential.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/activity_add_credential.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/xml_backup_rules.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_activity_vault.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/activity_vault.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_activity_scanner.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/activity_scanner.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_activity_mesh.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/activity_mesh.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/xml_autofill_service_config.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/xml/autofill_service_config.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_activity_auth_request.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/activity_auth_request.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/xml_network_security_config.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/xml/network_security_config.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_activity_login.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_item_credential.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/item_credential.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/drawable_bg_scanner_border.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/drawable/bg_scanner_border.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_activity_registration.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/activity_registration.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/drawable_ic_close.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/drawable/ic_close.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/drawable_ic_copy.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/drawable/ic_copy.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_layout_account_picker.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/layout_account_picker.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/xml_data_extraction_rules.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_activity_main.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/drawable_ic_camera.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/drawable/ic_camera.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/drawable_ic_add.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/drawable/ic_add.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/xml_accessibility_service_config.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/xml/accessibility_service_config.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/drawable_ic_visibility.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/drawable/ic_visibility.xml"
+    },
+    {
+        "merged": "com.guardian.mesh.app-merged_res-4:/layout_dialog_add_credential.xml.flat",
+        "source": "com.guardian.mesh.app-main-6:/layout/dialog_add_credential.xml"
+    }
+]

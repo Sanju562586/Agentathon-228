@@ -1,0 +1,15 @@
+# Defaults
+.git
+.gitignore
+
+# Ignore binaries and heavy files not needed for build
+*.exe
+*.zip
+*.dll
+users.json
+ngrok.exe
+ngrok.zip
+
+# CRITICAL: Do NOT ignore vendor directory
+!vendor/
+!app_linux
