@@ -5,12 +5,12 @@
 
 ```
   ╔═══════════════════════════════════════════════════════════════╗
-  ║   ░██████╗░██╗░░░██╗░█████╗░██████╗░██████╗░██╗░█████╗░███╗  ║
+  ║   ░██████╗░██╗░░░██╗░█████╗░██████╗░██████╗░██╗░█████╗░███╗   ║
   ║   ██╔════╝░██║░░░██║██╔══██╗██╔══██╗██╔══██╗██║██╔══██╗████╗  ║
   ║   ██║░░██╗░██║░░░██║███████║██████╔╝██║░░██║██║███████║██╔█║  ║
   ║   ██║░░╚██╗██║░░░██║██╔══██║██╔══██╗██║░░██║██║██╔══██║██║╚╗  ║
   ║   ╚██████╔╝╚██████╔╝██║░░██║██║░░██║██████╔╝██║██║░░██║██║░╚  ║
-  ║   ░╚═════╝░░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝╚═╝░░╚═╝╚═╝  ║
+  ║   ░╚═════╝░░╚═════╝░╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝╚═╝░░╚═╝╚═╝    ║
   ║                                                               ║
   ║          🛡️  M E S H  ·  I D E N T I T Y  ·  A G E N T       ║
   ╚═══════════════════════════════════════════════════════════════╝
@@ -109,11 +109,11 @@ All credential sharing flows through an async cloud broker (Go + MongoDB Atlas o
 ╚═══════════════════════════════════════════════════════════════════════════╝
 
   ╔═══════════════╗    ① POST /auth/challenge    ╔═══════════════════════╗
-  ║               ║ ─────────────────────────►  ║                       ║
+  ║               ║ ─────────────────────────►   ║                       ║
   ║  📱 ANDROID   ║                             ║   🌐 GO CLOUD BROKER  ║
-  ║   GUARDIAN    ║ ◄─────────────────────────  ║   (Google Cloud Run)  ║
+  ║   GUARDIAN    ║ ◄─────────────────────────   ║   (Google Cloud Run)  ║
   ║     APP       ║    ② Challenge Nonce         ║   + MongoDB Atlas     ║
-  ║               ║ ─────────────────────────►  ║                       ║
+  ║               ║ ─────────────────────────►   ║                       ║
   ║  ┌─────────┐  ║    ③ ECDSA Signed Login      ╚═══════════╤═══════════╝
   ║  │ TFLite  │  ║                                           │
   ║  │  Risk   │  ║ ◄─ Trust Score Check ─────────────────── │
@@ -151,7 +151,7 @@ All credential sharing flows through an async cloud broker (Go + MongoDB Atlas o
          │◄── GET /agent/poll OK ───│                           │
          │    (decrypt w/ privkey)  │                           │
          ▼                          │                           │
-  ✅ Auto-filled!                    │                           │
+  ✅ Auto-filled!                   │                           │
   (user never typed a password)     │                           │
 ```
 
@@ -413,11 +413,11 @@ python train_model.py
 ╔════════════════════════════════════════════════════════╗
 ║               GUARDIAN MESH CRYPTO STACK               ║
 ╠════════════════════════════════════════════════════════╣
-║  Layer 1: TRANSPORT     TLS 1.3 (HTTPS everywhere)    ║
-║  Layer 2: AUTH          ECDSA P-256 (Android KS)      ║
-║  Layer 3: E2E ENCRYPT   RSA-OAEP 2048-bit             ║
-║  Layer 4: DATA AT REST  AES-256-GCM                   ║
-║  Layer 5: PASSWORDS     bcrypt (cost factor = 14)     ║
+║  Layer 1: TRANSPORT     TLS 1.3 (HTTPS everywhere)     ║
+║  Layer 2: AUTH          ECDSA P-256 (Android KS)       ║
+║  Layer 3: E2E ENCRYPT   RSA-OAEP 2048-bit              ║
+║  Layer 4: DATA AT REST  AES-256-GCM                    ║
+║  Layer 5: PASSWORDS     bcrypt (cost factor = 14)      ║
 ╚════════════════════════════════════════════════════════╝
 ```
 
