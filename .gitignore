@@ -1,0 +1,86 @@
+# ========================
+# GUARDIAN MESH — .gitignore
+# ========================
+
+# ---- Go Backend ----
+backend/*.exe
+backend/app_linux
+backend/ngrok.exe
+backend/ngrok.zip
+backend/ngrok_info.json
+backend/mesh-backend
+backend/guardian_backend.exe
+backend/url.txt
+backend/clean_url.txt
+backend/users.json
+
+# Go build artifacts
+*.exe
+*.test
+*.out
+vendor/
+
+# ---- Android ----
+*.iml
+.gradle/
+local.properties
+.idea/
+.DS_Store
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Android local secrets
+android-agent/local.properties
+
+# ---- Python / ML ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+.env
+*.venv
+venv/
+.Python
+env/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# ---- Secrets & Credentials ----
+*.json.bak
+secrets.json
+credentials.json
+service-account.json
+.env.*
+*.pem
+*.key
+*.p12
+*.keystore
+
+# ---- Generated / Deployable ----
+*.tflite
+!risk_model.tflite  # Keep the pre-trained model
+
+# ---- OS & Editor ----
+.DS_Store
+Thumbs.db
+.vscode/settings.json
+*.swp
+*.swo
+*~
+
+# ---- Logs ----
+*.log
+build_log*.txt
+
+# ---- ngrok ----
+ngrok.yml
+.ngrok2/
